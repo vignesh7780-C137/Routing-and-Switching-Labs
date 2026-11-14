@@ -1,13 +1,13 @@
 # Routing & Switching Labs
 
-Hands-on Cisco Packet Tracer labs documenting routing, switching, network services, and verification workflows.
+A hands-on Cisco Packet Tracer portfolio documenting routing, switching, and core network services through practical labs.
 
-## Labs
+## Lab projects
 
-| Lab | Focus | Status |
+| Project | Technology | Documentation |
 |---|---|---|
-| [OSPF Configuration](OSPF-Lab/README.md) | OSPF routing fundamentals and verification | Documentation added; Packet Tracer file to be uploaded |
-| [DHCP Configuration](DHCP-Lab/README.md) | DHCP addressing and client connectivity | Documentation added; Packet Tracer file to be uploaded |
+| [OSPF Configuration Lab](OSPF-Lab/README.md) | Cisco IOS · OSPFv2 · Dynamic routing | [Open OSPF lab](OSPF-Lab/README.md) |
+| [DHCP Configuration Lab](DHCP-Lab/README.md) | Cisco IOS · DHCP · IPv4 addressing | [Open DHCP lab](DHCP-Lab/README.md) |
 
 ## Repository structure
 
@@ -20,22 +20,23 @@ Routing-and-Switching-Labs/
 └── README.md
 ```
 
-## What each lab documents
+## Lab evidence and project files
 
-- Objective and topology overview
-- Device roles and addressing plan
-- Configuration notes
-- Verification commands and observed results
-- Screenshots and Packet Tracer project file
+Each lab is organized to include:
+- Packet Tracer topology and project file (`.pkt`)
+- Device roles and IPv4 addressing plan
+- Relevant Cisco IOS configuration
+- Verification commands and observed outputs
+- Screenshots of topology, CLI configuration, and connectivity tests
+
+The documentation distinguishes configuration guidance from results actually verified in Packet Tracer. IP addresses, router IDs, process IDs, DHCP pools, and test outcomes will only be published when confirmed from the corresponding lab.
 
 ## Tools
 
 - Cisco Packet Tracer
-- Cisco IOS CLI
+- Cisco IOS command-line interface
+- Git and GitHub
 
 ## About
 
-This repository is a practical learning portfolio for routing and switching. Lab details will be documented from the actual Packet Tracer configurations and test results; unverified configuration values are intentionally not assumed.
-
----
-*Maintained as a hands-on networking portfolio.*
+This repository is a practical networking portfolio focused on understanding, configuring, and troubleshooting routed networks and network services.
